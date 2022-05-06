@@ -8,6 +8,24 @@
   box-sizing: content-box;
 
   &__dark-mode-btn {
+    color: black;
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__dark-mode-btn-toggled {
+    color: rgb(247, 202, 57);
     border: 0;
     background: transparent;
     font-size: 30px;
